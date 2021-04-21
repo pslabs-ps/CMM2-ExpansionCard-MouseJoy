@@ -60,7 +60,7 @@ In table below You can find pinout for Atari Joystick DB9 socket:
 
 Simple code example can be found below:
 
-```
+```basic
 SETPIN 35, DIN, PULLUP
 SETPIN 36, DIN, PULLUP
 SETPIN 38, DIN, PULLUP
