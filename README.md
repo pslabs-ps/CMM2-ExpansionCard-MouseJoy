@@ -1,2 +1,37 @@
-# CMM2-ExpansionCard-MouseJoy
+# CMM2 Expansion Card Mouse Joy
  
+<img src="Images/exp_board_3d.jpg" width="400">
+This card adds following functionalities to CMM2: USB mouse (HT chip) including wireless, Atari joystick, Nunchuk port
+
+Schematic can be found here: [schematic REV A v03](/Schematic/mouse_j_REVA_v03.pdf)
+
+Expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
+
+<img src="Images/exp_items.png" width="800">
+
+1. USB A connector for mouse
+2. DB9 for Atari Joystick
+3. HT USB mouse host chip
+4. Power supply selector
+
+# WARNING!
+<img src="Images/champf.jpg" width="200">
+Expansion card have to have edges chamfered, using unchamfered card will result in slot damage.
+
+# Assembly
+1. Install U1 DIP28 socket
+2. Cut goldpin headers with pliers to correct length and install J1, J4
+3. Install J2 USB A socket
+4. Install J3 DB9 socket
+5. Install USB HT Chip in socket. WARNING! Make sure that orientation is correct and pins are straight
+6. Install jumpers on J4 (described in chapter Power supply selector)
+
+# Power supply selector
+Use J4 to select from what power source card should be powered:
+PM. - power from power module card
+CMM - power from Maximite-c91
+
+Example:
+<img src="Images/pow_sel.png" width="800">
+
+<img src="Images/pow_sel_not_all.png" width="800">
