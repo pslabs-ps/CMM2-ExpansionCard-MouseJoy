@@ -60,7 +60,7 @@ In table below You can find pinout for Atari Joystick DB9 socket:
 
 Simple code example can be found below:
 
-'''
+```
 SETPIN 35, DIN, PULLUP
 SETPIN 36, DIN, PULLUP
 SETPIN 38, DIN, PULLUP
@@ -75,4 +75,4 @@ DO
   IF PIN(32) = 0 THEN PRINT"FIRE"
   PAUSE 100
 LOOP
-'''
+```
