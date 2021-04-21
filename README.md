@@ -32,6 +32,10 @@ PM. - power from power module card
 CMM - power from Maximite-c91
 
 Example:
+
 <img src="Images/pow_sel.png" width="800">
 
+
+
+Never connect power from different sources:
 <img src="Images/pow_sel_not_all.png" width="800">
