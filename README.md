@@ -58,7 +58,7 @@ In table below You can find pinout for Atari Joystick DB9 socket:
 | 8 | GND | GND |
 | 9 | BUTTON B | 33 |
 
-Simple code example can be found below:
+Code example can be found below:
 
 ```basic
 SETPIN 35, DIN, PULLUP
