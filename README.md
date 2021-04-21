@@ -81,7 +81,7 @@ LOOP
 # Mouse sample code
 Below You can find sample code for mouse test using HT chip
 
-```
+```basic
 mode 3
 gui cursor on
 controller mouse open 2,leftclick,rightclick
