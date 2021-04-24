@@ -42,6 +42,10 @@ Never connect power from different sources:
 
 <img src="Images/pow_sel_not_all.png" width="800">
 
+# Connecting Nunchuk controller
+Nunchuk plug should be connected as shown below, connecting differently will cause short on 3.3V rail.
+
+<img src="Images/connectnun.png" width="800">
 
 # Atari joystick pinout and code example code
 In table below You can find pinout for Atari Joystick DB9 socket:
