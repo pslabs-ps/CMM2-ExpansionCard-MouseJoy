@@ -1,9 +1,8 @@
 # CMM2 Expansion Card Mouse Joy
  
- <img src="Images/black_mouse_ass.png" width="400">
+ <img src="Images/black_mouse_ass.png" width="600">
  
  
-<img src="Images/exp_board_3d.jpg" width="400">
 This card adds following functionalities to CMM2: USB mouse (HT chip) including wireless, Atari joystick, Nunchuk port
 
 Schematic can be found here: [schematic REV A v03](/Schematic/mouse_j_REVA_v03.pdf)
